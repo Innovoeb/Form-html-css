@@ -1,0 +1,63 @@
+
+/* universal box-sizing w/ inheritance */
+html {
+  box-sizing: border-box;
+}
+
+*,
+* ::before,
+* ::after {
+  box-sizing: inherit;
+}
+
+/* body styles */
+body {
+  background-color: rgb(80, 152, 207);
+  color: white;
+  font: arial;
+  font-size: 20px;
+  font-weight: lighter;
+
+}
+
+/* input styles */
+input {
+  outline: 1px solid blue;
+  border-color: white;
+}
+
+#homework {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 10px;
+  color: white;
+  overflow: scroll;
+  caret-color: white;
+
+
+}
+
+#weapons {
+  width: 500px;
+
+}
+
+input,
+textarea,
+select {
+  background-color: rgb(80, 152, 207);
+  border: 2px solid white;
+}
+
+/* placeholder font color */
+::placeholder {
+  color: white;
+}
+
+select {
+  color: white;
+}
+
+#birthdate {
+  color: white;
+}
