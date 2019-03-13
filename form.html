@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <title>Form Homework</title>
+
+  <link rel="stylesheet" type="text/css" href="formStyles.css">
+
+</head>
+
+<body>
+
+  <!-- form markup -->
+  <form id="homework">
+    <div id="column1">
+      <!-- firstname -->
+      <label for="firstname">First Name</label>
+      <br>
+      <input id="firstname" type="text" name="first-name" placeholder="type here">
+      <br>
+      <br>
+
+      <!-- lastname -->
+      <label for="lastname">Last Name</label>
+      <br>
+      <input id="lastname" type="text" name="last-name">
+      <br>
+      <br>
+
+      <!-- birthdate -->
+      <label for="birthdate">Birthdate:</label>
+      <br>
+      <input id="birthdate" type="date" name="birthdate">
+      <br>
+      <br>
+
+      <!-- email -->
+      <label for="email">Email Address</label>
+      <br>
+      <input id="email" type="text" name="email">
+      <br>
+      <br>
+    </div>
+
+    <div id="column2">
+
+      <!-- country -->
+      <label for="country">Country</label>
+      <br>
+      <select>
+        <option value="us">United States</option>
+        <option value="russia">Russia</option>
+        <option value="china">China</option>
+        <option value="canada">Canada</option>
+      </select>
+      <br>
+      <br>
+
+
+      <!-- orgin story -->
+      <label for="origin">Origin Story</label>
+      <br>
+      <textarea id="origin" form="homework" rows="10" cols="50" placeholder="type here"></textarea>
+      <br>
+      <br>
+
+      <!-- phonenumber -->
+      <label for="phonenumber">Phone Number</label>
+      <br>
+      <input id="phonenumber" type="tel" name="phonenumber" placeholder="###-###-####">
+      <br>
+      <br>
+
+      <!-- villians -->
+      <label for="villians">Archvillians:</label>
+      <br>
+      <textarea id="villians" form="homework" rows="10" cols="50" placeholder="list here"></textarea>
+      <br>
+      <br>
+    </div>
+
+    <div id="column3">
+
+      <!-- yes/no radio input -->
+      <label>Are you an Alien/not of planet Earth?</label>
+      <div id="myRadio">
+        <input type="radio" name="yesno" value="yes">
+        <label>yes</label>
+        <input type="radio" name="yesno" value="no">
+        <label>no</label>
+      </div>
+      <br>
+      <br>
+
+      <!-- superpowers -->
+      <label for="superpowers">Superpowers:</label>
+      <br>
+      <textarea id="superpowers" form="homework" rows="10" cols="50"></textarea>
+      <br>
+      <br>
+
+      <!-- weapons -->
+      <label for="weapons">Weapons used. If none, type N/A</label>
+      <br>
+      <input id="weapons" type="text" name="weapons">
+      <br>
+      <br>
+
+      <!-- weakness -->
+      <label for="weakness">Weaknesses:</label>
+      <br>
+      <textarea id="weakness" form="homework" rows="5" cols="50"></textarea>
+      <br>
+      <br>
+
+      <!-- essay answer -->
+      <label for="essay">In a few sentences, explain why you would be a great hero for our
+      organization.</lable>
+      <br>
+      <textarea id="essay" form="homework" rows="10" cols="90"></textarea>
+    </div>
+
+
+
+
+  </form>
+
+
+
+
+
+</body>
+
+</html>
