@@ -5,7 +5,7 @@
 
   <title>Form Homework</title>
 
-  <link rel="stylesheet" type="text/css" href="formStyles.css">
+  <link rel="stylesheet" type="text/css" href="formStyles2.css"
 
 </head>
 
@@ -14,6 +14,7 @@
   <!-- form markup -->
   <form id="homework">
     <div id="column1">
+
       <!-- firstname -->
       <label for="firstname">First Name</label>
       <br>
@@ -28,12 +29,29 @@
       <br>
       <br>
 
+      <!-- superhero name -->
+      <label for="supername">Superhero Name</label>
+      <br>
+      <input id="supername" type="text" name="superheroname">
+      <br>
+      <br>
+
+
       <!-- birthdate -->
       <label for="birthdate">Birthdate:</label>
       <br>
       <input id="birthdate" type="date" name="birthdate">
       <br>
       <br>
+
+      <!-- phonenumber -->
+      <label for="phonenumber">Phone Number</label>
+      <br>
+      <input id="phonenumber" type="tel" name="phonenumber" placeholder="###-###-####">
+      <br>
+      <br>
+
+
 
       <!-- email -->
       <label for="email">Email Address</label>
@@ -48,7 +66,7 @@
       <!-- country -->
       <label for="country">Country</label>
       <br>
-      <select>
+      <select name="country">
         <option value="us">United States</option>
         <option value="russia">Russia</option>
         <option value="china">China</option>
@@ -61,21 +79,22 @@
       <!-- orgin story -->
       <label for="origin">Origin Story</label>
       <br>
-      <textarea id="origin" form="homework" rows="10" cols="50" placeholder="type here"></textarea>
+      <textarea id="origin" form="homework" rows="10" cols="50" placeholder="type here" name="origin"></textarea>
       <br>
       <br>
 
-      <!-- phonenumber -->
-      <label for="phonenumber">Phone Number</label>
-      <br>
-      <input id="phonenumber" type="tel" name="phonenumber" placeholder="###-###-####">
-      <br>
-      <br>
 
       <!-- villians -->
       <label for="villians">Archvillians:</label>
       <br>
-      <textarea id="villians" form="homework" rows="10" cols="50" placeholder="list here"></textarea>
+      <textarea id="villians" form="homework" rows="10" cols="50" placeholder="list here" name="villians"></textarea>
+      <br>
+      <br>
+
+      <!-- weapons -->
+      <label for="weapons">Weapons used. If none, type N/A</label>
+      <br>
+      <textarea id="weapons" form="homework" rows="3" cols="10" name="weapons"></textarea>
       <br>
       <br>
     </div>
@@ -96,21 +115,16 @@
       <!-- superpowers -->
       <label for="superpowers">Superpowers:</label>
       <br>
-      <textarea id="superpowers" form="homework" rows="10" cols="50"></textarea>
+      <textarea id="superpowers" form="homework" rows="10" cols="50" name="superpowers"></textarea>
       <br>
       <br>
 
-      <!-- weapons -->
-      <label for="weapons">Weapons used. If none, type N/A</label>
-      <br>
-      <input id="weapons" type="text" name="weapons">
-      <br>
-      <br>
+
 
       <!-- weakness -->
       <label for="weakness">Weaknesses:</label>
       <br>
-      <textarea id="weakness" form="homework" rows="5" cols="50"></textarea>
+      <textarea id="weakness" form="homework" rows="5" cols="50" name="weakness"></textarea>
       <br>
       <br>
 
@@ -118,7 +132,15 @@
       <label for="essay">In a few sentences, explain why you would be a great hero for our
       organization.</lable>
       <br>
-      <textarea id="essay" form="homework" rows="10" cols="90"></textarea>
+      <textarea id="essay" form="homework" rows="10" cols="90" name="essay"></textarea>
+      <br>
+      <br>
+      <br>
+
+      <!-- submit button -->
+      <button id="submit" onclick="myfunction()">Submit</button>
+
+
     </div>
 
 
