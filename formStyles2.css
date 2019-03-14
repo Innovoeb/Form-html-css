@@ -1,0 +1,78 @@
+
+/* universal box-sizing w/ inheritance */
+html {
+box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit
+}
+
+/* text font */
+body label {
+  font: Georgia;
+  font-size: 18px;
+}
+
+/* borders */
+input,
+textarea {
+  border: 2px solid white;
+  font-size: 18px;
+}
+
+/* background color */
+form,
+input,
+select,
+textarea,
+body {
+  color: white;
+  background-color: rgb(80, 152, 207);
+}
+
+/* black placeholder font-color */
+::placeholder {
+  color: black;
+  font-weight: lighter;
+}
+
+/* cannot make textarea resizable*/
+textarea {
+  resize: none;
+}
+
+/* weapons text box */
+#weapons {
+  width: 300px;
+  height: 60px;
+}
+
+/* submit button */
+button {
+  padding: 10px 60px;
+  background-color: black;
+  color: white;
+  font: Georgia;
+  font-size: 20px;
+  border: 1px black solid;
+}
+
+/* pointer cursor on mouseover */
+#submit {
+  cursor: pointer;
+}
+
+/* form flex display */
+form {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: stretch;
+}
+
+#homework {
+  margin-top: 80px;
+  width: 100%;
+}
