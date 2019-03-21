@@ -10,6 +10,20 @@ box-sizing: border-box;
   box-sizing: inherit
 }
 
+/* canvas */
+#canvas {
+  height: 1000px;
+}
+
+#homework {
+  height: 700px;
+  width: 1400px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: 300px;
+}
+
 /* text font */
 body label {
   font: Georgia;
@@ -18,7 +32,8 @@ body label {
 
 /* borders */
 input,
-textarea {
+textarea,
+select {
   border: 2px solid white;
   font-size: 18px;
 }
@@ -73,6 +88,85 @@ form {
 }
 
 #homework {
-  margin-top: 80px;
-  width: 100%;
+  margin-top: 20px;
+
+}
+
+.column1 {
+  width: 700px;
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 13px;
+}
+
+.column2 {
+  width: 700px;
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 13px;
+  margin-top: 5px;
+
+}
+
+.column3 {
+  width: 700px;
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 13px;
+  margin-top: 5px;
+}
+
+.button {
+  height: 50px;
+  width: 200px;
+  position: relative;
+  top: 80px;
+  left: 850px;
+}
+
+#origin {
+  height: 200px;
+  width: 500px;
+}
+
+#country {
+  width: 500px;
+}
+
+#villians {
+  height: 200px;
+  width: 500px;
+}
+
+#weapons {
+  height: 100px;
+  width: 500px;
+}
+
+#superpowers {
+  height: 200px;
+  width: 500px;
+}
+
+#weakness {
+  height: 200px;
+  width: 500px
+}
+
+#essay {
+  height: 200px;
+  width: 500px;
+}
+
+.radio {
+  height: 50px;
+  width: 415px;
 }
